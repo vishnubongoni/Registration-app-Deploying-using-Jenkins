@@ -14,7 +14,29 @@
     <artifactId>server</artifactId>
     <packaging>jar</packaging>
 
-    <!-- ❌ DO NOT DEFINE compiler plugin here -->
-    <!-- ❌ DO NOT SET source/target here -->
+    <dependencies>
+
+        <!-- JUnit 4 (for unit testing) -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Hamcrest Core -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Hamcrest Library -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>
